@@ -1,8 +1,8 @@
 export default function Resume() {
   return (
-    <div className="mt-10 flex container w-9/12 mx-auto flex-col gap-x-5justify-center">
+    <div className="mt-10 flex container w-9/12 mx-auto flex-col gap-x-5justify-center" id="experiencia-laboral">
       <div>
-        <h2 className="text-4xl font-bold text-blue-950">Resumen</h2>
+        <h2 className="text-4xl font-bold text-blue-950">Experiencia Laboral</h2>
         <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       </div>
       <div className="">

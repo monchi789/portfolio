@@ -24,11 +24,11 @@ export default function AnimatedImages() {
       <img
         src={images[index]}
         alt={`Imagen ${index + 1}`}
-        className="w-48 h-62 object-cover"
+        className="w-48 h-62 object-cover aspect-square"
       />
       <p className="text-gray-800">
         by{" "}
-        <a href="https://itch.io/profile/zerie" className="font-semibold">
+        <a href="https://itch.io/profile/zerie" className="font-semibold" target="_blank">
           @Zerie
         </a>
       </p>
